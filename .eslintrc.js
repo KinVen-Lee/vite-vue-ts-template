@@ -45,6 +45,9 @@ module.exports = {
       // 这个是解决引入时没后缀查不到的问题
       node: {
         extensions: ['.js', '.jsx', '.ts', '.tsx', '.json']
+      },
+      typescript: {
+        project: './tsconfig.json'
       }
     }
   }
