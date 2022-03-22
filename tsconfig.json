@@ -19,7 +19,7 @@
       "@store/*": ["src/store/*"],
       "@assets/*": ["src/assets/*"],
       "@utils/*": ["src/utils/*"],
-      "@api/*": ["src/api/*"],
+      "@api/*": ["src/api/*"]
     }
   },
   "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue", "vite.config.*"]

@@ -6,7 +6,10 @@ module.exports = {
   },
 
   globals: {
-    defineProps: 'readonly'
+    defineProps: 'readonly',
+    defineEmits: 'readonly',
+    defineExpose: 'readonly',
+    withDefaults: 'readonly'
   },
 
   extends: [
@@ -21,7 +24,7 @@ module.exports = {
     sourceType: 'module'
   },
 
-  plugins: ['vue', '@typescript-eslint'],
+  plugins: ['vue', '@typescript-eslint', 'prettier'],
 
   rules: {
     'no-console': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
